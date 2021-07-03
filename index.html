@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LAN NHI</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="hover.css">
+	<link rel="stylesheet" href="lightbox.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<h1><a href="">IMLANNHI</a></h1>
+				</div>
+				<div class="menu">
+					<div class="tab">
+						<button class="tablinks hvr-grow" onclick="openCity(event, 'London')" id="defaultOpen">Home</button>
+						<br>
+						<button class="tablinks hvr-grow" onclick="openCity(event, 'Paris')">About</button>
+						<br>
+						<button class="tablinks hvr-grow" onclick="openCity(event, 'Tokyo')">Portfolio</button>
+						<br>
+						<button class="tablinks hvr-grow" onclick="openCity(event, 'Hanoi')">Contact</button>
+					</div>
+<!--
+					<ul>
+						<li><a href="#" class="hvr-grow">Home</a></li>
+						<li><a href="#" class="hvr-grow">About</a></li>
+						<li><a href="#" class="hvr-grow">Portfolio</a></li>
+						<li><a href="#" class="hvr-grow">Contact</a></li>
+					</ul>
+-->
+				</div>
+<!--				Menu-->
+				<div class="footer">
+					<p>2021 Vietnam 
+					<br>
+						Created by <a href="#" class="hvr-grow">Lan Nhi</a></p>
+				</div>
+			</div>
+		</div>
+<!--		Header-->
+		<div class="main">
+			<section class="section1">
+				<div id="London" class="tabcontent">
+					<div class="box">
+						<div class="avatar">
+							<img src="img/nhi.jpg" alt="" class="avt">
+						</div>
+					</div>
+					<div class="tieusu">
+						<h1>LÊ VÕ LAN NHI</h1>
+						<p>Cô gái bình thường đang cố gắng học tập, trau dồi để kiếm nhiều tiền và làm những điều mình muốn.</p>
+						<div class="icon">
+							<a href="https://www.facebook.com/imlannhi/"><ion-icon name="logo-facebook"></ion-icon></a>
+							<a href="https://www.instagram.com/imlannhi/"><ion-icon name="logo-instagram"></ion-icon></a>
+							<a href="https://www.behance.net/lannhi2"><ion-icon name="logo-behance"></ion-icon></a>
+							<a href="https://www.tiktok.com/@lannhi245?lang=vi-VN"><ion-icon name="logo-tiktok"></ion-icon></a>
+						</div>
+					</div>
+				</div>
+			</section>
+<!--			Home-->
+			<section class="section2">
+				<div id="Paris" class="tabcontent">
+				  	<div class="hinh">
+						<img src="img/131225502_705846810337564_1702058653893114549_n.jpg" alt="" width="870px">
+					</div> 
+					<div class="discription">
+						<h3>Lan Nhi với Thiết kế</h3>
+						<div class="cot">
+							<div class="left">
+								<p>Xin chào, tôi là fresher đang trên hành trình bước vào thiết kế chuyên nghiệp, tôi vẫn còn nhiều thiếu xót nhưng với tinh thần học hỏi nên tôi luôn không ngừng cố gắng để bản thân tiến bộ mỗi ngày.</p>
+								<div class="btn hvr-grow">
+									<a href="#">Learn More</a>
+								</div>
+							</div>
+							<div class="right">
+								<ul>
+									<li><span>Ngày sinh: </span>   24.05.2002</li>
+									<li><span>Tuổi: </span>   19</li>
+									<li><span>Địa chỉ: </span>   Nguyễn Kiệm, Phú Nhuận, Tp.HCM</li>
+									<li><span>Email: </span><a href="mailto:levolannhi2002@gmail.com" class="hvr-shrink"> levolannhi2002@gmail.com</a></li>
+									<li><span>Điện thoại: </span><a href="tel:0862462834" class="hvr-shrink"> 0862462834</a></li>
+									<li><span>Trường: </span>   Arena Multimedia</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+<!--			About-->
+			<section class="section3">
+				<div id="Tokyo" class="tabcontent">
+					<div class="portfolio">
+						<div class="title">
+							<div class="title_flex">
+								<div class="trai">
+									<p>PORTFOLIO</p>
+									<h3>Create Portfolio</h3>
+								</div>
+								<div class="portfolio_filter">
+									<div class="anh">
+										<img src="img/Free Stationery Branding Mockup.jpg" alt="" height="220px">
+										<div class="content">
+											<p>BRANDING</p>
+										</div>
+									</div>
+									<div class="anh">
+										<img src="img/house-01.jpg" height="220px" alt="">
+										<div class="content">
+											<p>ISOMETRIC</p>
+										</div>
+									</div>
+									<div class="anh">
+										<img src="img/Untitled-1-01.jpg" width="220px" alt="">
+										<div class="content">
+											<p>POSTER</p>
+										</div>
+									</div>
+							</div>
+							</div>
+						</div>
+						<div class="list-wrapper">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section4">
+<!--				portfolio-->
+				<div id="Hanoi" class="tabcontent">
+				  	<form class="form">
+						<div class="sub-head mb-50 mt-30">
+							<h5>GET IN TOUCH</h5>
+						</div>
+						<table>
+							<tr>
+								<td><input type="text" value="" name="name" placeholder="Tên" required></td>
+							</tr>
+							<tr>
+								<td><input type="email" value="" name="email" placeholder="Email" required></td>
+							</tr>
+							<tr>
+								<td><textarea id="message" placeholder="Lời Nhắn"></textarea></td>
+							</tr>
+<!--
+							<tr>
+								<button class="nut" type="submit">Gửi</button>
+							</tr>
+-->
+						</table>
+						<div class="nut">
+							<a href="" id="send-message">Gửi</a>
+						</div>
+					</form>
+				</div>
+			</section>
+<!--			Contact-->
+		</div>
+<!--		Main-->
+	</div>
+<!--	finish-->
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!--	Tab bar-->
+<!--	portfolio-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="lightbox.js"></script>
+<script src="lightbox-plus-jquery.js"></script>
+</body>
+</html>
